@@ -1,0 +1,53 @@
+.swipe-container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Customize pagination bullets */
+.swipe-container .swiper-pagination-bullet {
+  background: white;
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+  margin: 0 6px !important;
+}
+
+.swipe-container .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: white;
+  transform: scale(1.3);
+}
+
+/* Customize navigation arrows */
+.swipe-container .swiper-button-next,
+.swipe-container .swiper-button-prev {
+  color: white !important;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.swipe-container .swiper-button-next:hover,
+.swipe-container .swiper-button-prev:hover {
+  opacity: 1;
+}
+
+/* Hide navigation arrows on mobile */
+@media (max-width: 768px) {
+  .swipe-container .swiper-button-next,
+  .swipe-container .swiper-button-prev {
+    display: none;
+  }
+}
+
+/* Pagination positioning - now at bottom for horizontal */
+.swipe-container .swiper-pagination {
+  bottom: 20px !important;
+  top: auto !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: auto !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

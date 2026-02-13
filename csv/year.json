@@ -1,0 +1,351 @@
+{
+  "range": {
+    "start": "2025-02-11",
+    "end": "2026-02-09"
+  },
+  "total_messages": 13152,
+  "by_person": {
+    "her": 6605,
+    "me": 6547
+  },
+  "messages_by_month": [
+    {
+      "month": "2025-02",
+      "count": 720
+    },
+    {
+      "month": "2025-03",
+      "count": 1232
+    },
+    {
+      "month": "2025-04",
+      "count": 855
+    },
+    {
+      "month": "2025-05",
+      "count": 953
+    },
+    {
+      "month": "2025-06",
+      "count": 989
+    },
+    {
+      "month": "2025-07",
+      "count": 888
+    },
+    {
+      "month": "2025-08",
+      "count": 1547
+    },
+    {
+      "month": "2025-09",
+      "count": 1210
+    },
+    {
+      "month": "2025-10",
+      "count": 1293
+    },
+    {
+      "month": "2025-11",
+      "count": 1202
+    },
+    {
+      "month": "2025-12",
+      "count": 864
+    },
+    {
+      "month": "2026-01",
+      "count": 1333
+    },
+    {
+      "month": "2026-02",
+      "count": 66
+    }
+  ],
+  "top_words": [
+    {
+      "word": "the",
+      "count": 1615
+    },
+    {
+      "word": "you",
+      "count": 1613
+    },
+    {
+      "word": "lol",
+      "count": 1156
+    },
+    {
+      "word": "just",
+      "count": 807
+    },
+    {
+      "word": "for",
+      "count": 734
+    },
+    {
+      "word": "and",
+      "count": 656
+    },
+    {
+      "word": "like",
+      "count": 605
+    },
+    {
+      "word": "that",
+      "count": 570
+    },
+    {
+      "word": "now",
+      "count": 569
+    },
+    {
+      "word": "was",
+      "count": 559
+    },
+    {
+      "word": "this",
+      "count": 546
+    },
+    {
+      "word": "good",
+      "count": 501
+    },
+    {
+      "word": "but",
+      "count": 466
+    },
+    {
+      "word": "what",
+      "count": 464
+    },
+    {
+      "word": "love",
+      "count": 449
+    },
+    {
+      "word": "have",
+      "count": 433
+    },
+    {
+      "word": "can",
+      "count": 406
+    },
+    {
+      "word": "get",
+      "count": 359
+    },
+    {
+      "word": "then",
+      "count": 358
+    },
+    {
+      "word": "home",
+      "count": 355
+    },
+    {
+      "word": "think",
+      "count": 333
+    },
+    {
+      "word": "haha",
+      "count": 315
+    },
+    {
+      "word": "maybe",
+      "count": 312
+    },
+    {
+      "word": "time",
+      "count": 303
+    },
+    {
+      "word": "not",
+      "count": 293
+    },
+    {
+      "word": "when",
+      "count": 280
+    },
+    {
+      "word": "one",
+      "count": 272
+    },
+    {
+      "word": "how",
+      "count": 269
+    },
+    {
+      "word": "too",
+      "count": 266
+    },
+    {
+      "word": "are",
+      "count": 258
+    },
+    {
+      "word": "done",
+      "count": 254
+    },
+    {
+      "word": "there",
+      "count": 252
+    },
+    {
+      "word": "should",
+      "count": 250
+    },
+    {
+      "word": "they",
+      "count": 244
+    },
+    {
+      "word": "going",
+      "count": 241
+    },
+    {
+      "word": "yeah",
+      "count": 233
+    },
+    {
+      "word": "oop",
+      "count": 226
+    },
+    {
+      "word": "still",
+      "count": 222
+    },
+    {
+      "word": "tho",
+      "count": 218
+    },
+    {
+      "word": "with",
+      "count": 205
+    }
+  ],
+  "special_words": {
+    "chapuna": 91,
+    "love": 449
+  },
+  "busiest_day": {
+    "date": "2025-12-12",
+    "count": 295
+  },
+  "longest_streak": {
+    "days": 6,
+    "start": "2025-08-28",
+    "end": "2025-09-02"
+  },
+  "most_used_emoji": {
+    "emoji": "\ud83d\ude2d",
+    "count": 384
+  },
+  "most_popular_hour": {
+    "hour": 12,
+    "formatted": "12 PM - 1 PM",
+    "count": 1305
+  },
+  "sample_quotes": [
+    {
+      "ts": "2025-02-13T09:43:28",
+      "sender": "her",
+      "text": "I don\u2019t think there\u2019s clean underwear for me \ud83d\ude14"
+    },
+    {
+      "ts": "2025-02-13T10:22:47",
+      "sender": "her",
+      "text": "I have to go to work today for a meeting btw"
+    },
+    {
+      "ts": "2025-02-13T10:23:05",
+      "sender": "her",
+      "text": "So I\u2019m just gonna go straight there after class then I should be done around 2"
+    },
+    {
+      "ts": "2025-02-13T12:51:19",
+      "sender": "me",
+      "text": "poopy assignment imma just habd it in LMAO"
+    },
+    {
+      "ts": "2025-02-13T12:57:07",
+      "sender": "her",
+      "text": "At least you don\u2019t have to worry about it anymore"
+    },
+    {
+      "ts": "2025-02-13T12:58:05",
+      "sender": "me",
+      "text": "no apparently they progressively get harder"
+    },
+    {
+      "ts": "2025-02-13T18:49:48",
+      "sender": "me",
+      "text": "hes a business owner and i was pike asking him questions LOL"
+    },
+    {
+      "ts": "2025-02-13T18:51:01",
+      "sender": "her",
+      "text": "What\u2019s the plan now? Work on more assignments :/"
+    },
+    {
+      "ts": "2025-02-24T09:01:34",
+      "sender": "her",
+      "text": "Agh I was in such a rush this morning I didn\u2019t bring my gym stuff ://"
+    },
+    {
+      "ts": "2025-02-24T10:55:16",
+      "sender": "her",
+      "text": "I hate the new layout on our usual side like it\u2019s so empty but it\u2019s all those long tables"
+    },
+    {
+      "ts": "2025-02-24T10:55:49",
+      "sender": "me",
+      "text": "I sjoudl tell peter to put it bck to normal"
+    },
+    {
+      "ts": "2025-02-24T10:56:28",
+      "sender": "her",
+      "text": "I can buy something now before it gets busy"
+    },
+    {
+      "ts": "2025-02-24T10:56:50",
+      "sender": "me",
+      "text": "We can share so,ething though whats the special"
+    },
+    {
+      "ts": "2025-02-24T10:58:36",
+      "sender": "me",
+      "text": "Or i mesn we can just est st the condo lol"
+    },
+    {
+      "ts": "2025-02-24T11:02:03",
+      "sender": "her",
+      "text": "Ohh I think it\u2019s poutine week. I just saw an ad that VWs has a different poutine everyday"
+    },
+    {
+      "ts": "2025-02-24T11:04:53",
+      "sender": "her",
+      "text": "Shall I wait outside your class? Which room is it"
+    },
+    {
+      "ts": "2025-02-24T13:05:21",
+      "sender": "her",
+      "text": "https://www.mynetdiary.com/shared/foods/49777095"
+    },
+    {
+      "ts": "2025-02-24T22:25:12",
+      "sender": "her",
+      "text": "Finished the other half of the questions we did before. I think it\u2019s going better?"
+    },
+    {
+      "ts": "2025-02-24T22:25:32",
+      "sender": "her",
+      "text": "Recorded myself too and I feel like I lose my train of thought or can\u2019t smoothly connect ideas too much lol"
+    },
+    {
+      "ts": "2025-02-24T22:26:17",
+      "sender": "me",
+      "text": "yeah i think recording yourself is a really good way to reflect"
+    }
+  ]
+}

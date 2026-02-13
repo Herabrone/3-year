@@ -1,0 +1,94 @@
+.image-marquee {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.image-marquee--top {
+  top: 0;
+  height: auto;
+  padding: 10px 0;
+}
+
+.image-marquee--bottom {
+  bottom: 0;
+  height: auto;
+  padding: 10px 0;
+}
+
+.marquee-track {
+  display: flex;
+  animation-duration: 180s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+.image-marquee--top .marquee-track {
+  animation-name: scrollLeft;
+}
+
+.image-marquee--bottom .marquee-track {
+  animation-name: scrollRight;
+  animation-duration: 150s; /* Different speed for variety */
+}
+
+.marquee-track--duplicate {
+  position: absolute;
+  top: 0;
+}
+
+.marquee-image {
+  flex: 0 0 auto;
+  height: auto;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.marquee-image img {
+  height: auto;
+  max-height: 28vh;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Pause animation on hover */
+.image-marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .image-marquee--top,
+  .image-marquee--bottom {
+    height: 25%;
+  }
+  
+  .marquee-image {
+    margin-right: 15px;
+  }
+}
