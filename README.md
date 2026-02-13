@@ -72,6 +72,22 @@ After deployment:
 3. Source should be set to `gh-pages` branch (automatically done by gh-pages package)
 4. Your site will be live at: `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME`
 
+### 6. Updating Your Live Site
+
+After making changes to your project (updating photos, statistics, music, etc.):
+
+```bash
+# Save and commit your changes
+git add .
+git commit -m "Update photos and stats"
+git push
+
+# Deploy the updates to GitHub Pages
+npm run deploy
+```
+
+That's it! Your site will be updated in 1-2 minutes. The `npm run deploy` command automatically builds your project and pushes it to the `gh-pages` branch.
+
 ## 📱 Features
 
 - ✨ **Swipeable sections** - Touch, mouse drag, arrow keys, and scroll support
