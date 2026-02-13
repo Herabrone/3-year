@@ -4,14 +4,14 @@
 export const anniversaryData = [
   {
     id: 1,
-    title: "Our Year 3 Begins",
+    title: "Our Year 3 In Review!",
     stat: null,
     statLabel: "February 11, 2025",
     description: "Starting our third year together ✨",
     audioTrack: "track1.mp3",
     backgroundColor: "#FF6B9D",
     imageUrl: null,
-    images: ["/images/Darian.jpg", "/images/dnd.jpg", "/images/quail.jpg"],
+    images: [],
     tapToReveal: [
       { label: "First Message", value: '"Are we calling 3:"', type: "text" },
       { label: "Date & Time", value: "February 11, 2025 at 1:33 AM", type: "text" }
@@ -19,17 +19,17 @@ export const anniversaryData = [
   },
   {
     id: 2,
-    title: "Our Digital Love Story",
+    title: "Our Messaging!",
     stat: 13152,
     statLabel: "total messages",
-    description: "We never stopped talking 💬",
+    description: "U can't stop the texting me :p",
     audioTrack: "track2.mp3",
     backgroundColor: "#C44569",
     imageUrl: null,
     images: [],
     tapToReveal: [
-      { label: "Her Messages", value: 6605, type: "number" },
-      { label: "My Messages", value: 6547, type: "number" },
+      { label: "Elisa's Messages", value: 6605, type: "number" },
+      { label: "Darian's Messages", value: 6547, type: "number" },
       { label: "Most Common Word", value: "love (449 times)", type: "text" },
       { label: "Busiest Month", value: "August 2025 (1,547 messages)", type: "text" },
       { label: "Busiest Day", value: "December 12, 2025 (295 messages)", type: "text" },
@@ -52,7 +52,7 @@ export const anniversaryData = [
       locations: [
         {
           id: 1,
-          name: "Home Sweet Home",
+          name: "Home",
           coords: [49.8951, -97.1384],
           date: "Always",
           description: "Winnipeg - where our story continues every day"
@@ -62,49 +62,49 @@ export const anniversaryData = [
           name: "Vancouver, BC",
           coords: [49.2827, -123.1207],
           date: "Year 3",
-          description: "Beautiful Vancouver - mountains and ocean"
+          description: "Beautiful Vancouver - Going to on the Cruise"
         },
         {
           id: 3,
           name: "Hoonah, Alaska",
           coords: [58.1100, -135.4436],
           date: "Year 3",
-          description: "Our Alaska cruise adventure begins"
+          description: "Alaska cruise First stop"
         },
         {
           id: 4,
           name: "Ketchikan, Alaska",
           coords: [55.3422, -131.6461],
           date: "Year 3",
-          description: "The salmon capital of the world"
+          description: "And Yukon!"
         },
         {
           id: 5,
           name: "Juneau, Alaska",
           coords: [58.3019, -134.4197],
           date: "Year 3",
-          description: "Alaska's stunning capital city"
+          description: "Waterfall was amazing, walking there was fun lol"
         },
         {
           id: 6,
           name: "Varadero, Cuba",
           coords: [23.1478, -81.2461],
           date: "Year 3",
-          description: "Paradise beaches and crystal waters"
+          description: "We went at the right time! Loved sleeping half the time there with you :p"
         },
         {
           id: 7,
           name: "Havana, Cuba",
           coords: [23.1136, -82.3666],
           date: "Year 3",
-          description: "Historic charm and vibrant culture"
+          description: "No electrcity? No problem! "
         },
         {
           id: 8,
           name: "Matanzas, Cuba", 
           coords: [23.0418, -81.5775],
           date: "Year 3",
-          description: "Hidden gems off the beaten path"
+          description: "U did great driving the boat! Im happy we got to go scuba diving!"
         }
       ]
     },
@@ -120,7 +120,7 @@ export const anniversaryData = [
     title: "Movie Nights Together",
     stat: 21,
     statLabel: "movies watched",
-    description: "From blockbusters to hidden gems 🎬",
+    description: "Im happy you love watching movies, and even more happy that we get to watch them together!",
     audioTrack: "track4.mp3",
     backgroundColor: "#9B59B6",
     imageUrl: null,
@@ -149,10 +149,10 @@ export const anniversaryData = [
   },
   {
     id: 5,
-    title: "Milestones & Memories",
+    title: "Some Cool Extra Facts",
     stat: 449,
     statLabel: "times we said 'love'",
-    description: "The little things that made us, us 🥺",
+    description: "",
     audioTrack: "track5.mp3",
     backgroundColor: "#6C5CE7",
     imageUrl: null,
@@ -168,7 +168,7 @@ export const anniversaryData = [
     id: 6,
     title: "Here's to Forever",
     stat: null,
-    statLabel: "I love you more than words can say ❤️",
+    statLabel: "I love you more than words can say, thank you for being a part of my life and spending so much time with me!",
     description: "And this is just the beginning...",
     audioTrack: "track6.mp3",
     backgroundColor: "#FF7675",
@@ -177,8 +177,8 @@ export const anniversaryData = [
     tapToReveal: [
       { label: "Years Together", value: 3, type: "number" },
       { label: "Years to Come", value: "∞", type: "text" },
-      { label: "My Promise", value: "To love you more each day", type: "text" },
-      { label: "Our Future", value: "Brighter than ever ✨", type: "text" }
+      { label: "My Promise", value: "To love you just as much every day", type: "text" },
+      { label: "Our Future", value: "Teeth and Quails LOL, and to be with each other always", type: "text" }
     ]
   },
 ];
@@ -187,5 +187,5 @@ export const anniversaryMeta = {
   title: "Our Third Year Together",
   startDate: "February 11, 2025",
   endDate: "February 9, 2026",
-  subtitle: "A journey through our memories",
+  subtitle: "A journey through our year",
 };

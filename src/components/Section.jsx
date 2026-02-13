@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import ImageMarquee from './ImageMarquee';
 import InteractiveMap from './InteractiveMap';
 import MessageBackground from './MessageBackground';
+import { getShuffledImages } from '../utils/imageLoader';
 import './Section.css';
 
 const Section = ({ title, stat, statLabel, description, backgroundColor, imageUrl, images, tapToReveal, mapData, sectionId, isActive = false }) => {
@@ -18,6 +19,16 @@ const Section = ({ title, stat, statLabel, description, backgroundColor, imageUr
 
   // Check if this is the messages section
   const isMessagesSection = sectionId === 2 || title?.toLowerCase().includes('digital');
+
+  // Auto-load shuffled images from the public/images folder for non-messages sections
+  const marqueeImages = useMemo(() => {
+    if (isMessagesSection) return [];
+    // If images were explicitly provided and non-empty, use those
+    if (images && images.length > 0) return images;
+    if (imageUrl) return [imageUrl];
+    // Otherwise, pull from the global image folder
+    return getShuffledImages();
+  }, [images, imageUrl, isMessagesSection]);
 
   useEffect(() => {
     // Only animate if there's a numeric stat and we haven't animated yet
@@ -61,18 +72,16 @@ const Section = ({ title, stat, statLabel, description, backgroundColor, imageUr
     backgroundColor: backgroundColor,
   };
 
-  // Use images array if provided, otherwise fall back to single imageUrl
-  const imagesToShow = images && images.length > 0 ? images : (imageUrl ? [imageUrl] : null);
-
   return (
     <div className="section" style={sectionStyle}>
       {/* Message background for messages section */}
       {isMessagesSection && <MessageBackground isVisible={isActive} />}
       
-      {imagesToShow && (
+      {/* Image marquees for all non-messages sections */}
+      {!isMessagesSection && marqueeImages.length > 0 && (
         <>
-          <ImageMarquee images={imagesToShow} position="top" />
-          <ImageMarquee images={imagesToShow} position="bottom" />
+          <ImageMarquee images={marqueeImages} position="top" />
+          <ImageMarquee images={marqueeImages} position="bottom" />
         </>
       )}
       <div className="section-overlay" />
