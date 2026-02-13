@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Herabrone.github.io/3-years",
+  "homepage": "https://Herabrone.github.io/3-year",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
