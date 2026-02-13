@@ -38,7 +38,12 @@ const imageFilenames = [
 ];
 
 // Convert filenames to public URL paths (accounting for Vite base path)
-export const allImages = imageFilenames.map(filename => `./images/${filename}`);
+// Use Vite's base URL so images resolve correctly when JS is served from
+// the `/assets` folder (e.g. on GitHub Pages). `import.meta.env.BASE_URL`
+// will be `/3-year/` in production and `/` in some dev setups.
+export const allImages = imageFilenames.map(
+  (filename) => `${import.meta.env.BASE_URL}images/${filename}`
+);
 
 /**
  * Returns a shuffled copy of all available images
